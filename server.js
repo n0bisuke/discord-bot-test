@@ -15,7 +15,7 @@ app.get('/', (request, response) => {
   response.send(util.format(`<!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World</title>
+    <title>HOGEHOGE</title>
   </head>
   <body>
     <div class="center-box">
