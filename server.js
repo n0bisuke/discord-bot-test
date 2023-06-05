@@ -20,7 +20,7 @@ app.get('/', (request, response) => {
   <body>
     <div class="center-box">
       <img src="/images/developer.png">
-      <h1>Hello, World</h1>
+      <h1>HOGEHOGE</h1>
       <p>%s</p>
       <p>hostname: %s</>
     </div>
