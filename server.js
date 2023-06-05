@@ -9,7 +9,7 @@ const port = process.env.PORT || 8080;
 const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
-msg = process.env.MSG ? process.env.MSG : 'I was built by Buildpacks with Code Engine!';
+msg = process.env.MSG ? process.env.MSG : `I was built by Buildpacks with Code Engine! ${JSON.stringify(process.versions)}`;
 
 app.get('/', (request, response) => {
   response.send(util.format(`<!DOCTYPE html>
